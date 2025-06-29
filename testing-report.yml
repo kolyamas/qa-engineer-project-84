@@ -61,3 +61,7 @@
 - summary: |
     Проверка очистки всей корзины
   status: pass
+
+- summary: |
+    Проверка оформления заказа
+  status: fail
