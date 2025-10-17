@@ -1,8 +1,13 @@
-name: Nikolay Maslov
-job: QA Engineer
-level: junior
-email: kolya_maslov_2013@mail.ru
-description: 'жим лёжа - 100кг :)'
+name: 
+ Nikolay Maslov
+job: 
+ QA Engineer
+level: 
+ junior
+email: 
+ kolya_maslov_2013@mail.ru
+description: 
+ 'жим лёжа - 100кг :)'
 skills:
   - Функциональное тестирование
   - Написание багрепортов
