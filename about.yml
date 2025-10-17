@@ -1,16 +1,16 @@
 name: 
-- Nikolay Maslov
+- "Nikolay Maslov"
 job: 
-- QA Engineer
+- "QA Engineer"
 level: 
-- junior
+- "junior"
 email: 
-- kolya_maslov_2013@mail.ru
+- "kolya_maslov_2013@mail.ru"
 description: 
-- жим лёжа - 100кг :)
+- "жим лёжа - 100кг :)"
 skills:
-  - Функциональное тестирование
-  - Написание багрепортов
-  - Linux
-  - Слепая печать
-  - Английский язык C1
+  - "Функциональное тестирование"
+  - "Написание багрепортов"
+  - "Linux"
+  - "Слепая печать"
+  - "Английский язык C1"
