@@ -9,7 +9,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
       1. Открыть страницу магазина
       2. В выпадающем меню по смене языка выбрать соответствующий язык (English/Русский)
       3. Обновить страницу
@@ -29,7 +29,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
       1. Открыть страницу магазина https://hexlet-products-store.vercel.app
       2. В поиске товаров ввести необходимый товар
       3. Перейти на следующую страницу товароу, нажав кнопку "следующая"
@@ -50,7 +50,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
       1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
       2. Нажать кнопку "Категории", затем нажать кнопку "следующая" или "предыдущая"
   expected-result: |
@@ -69,7 +69,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
       1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
       2. Выбарть производителя "Apple", затем нажать кнопку "следующая" или "предыдущая"
   expected-result: |
@@ -88,7 +88,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
     1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
     2. Выключить кнопку "в наличии"
     3. Пролистать страницы товаров
@@ -110,7 +110,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
     1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
     2. Проверить, что нет возможности ввести необходимое количество выбранного товара
     3. Нажать несколько раз "в корзину" на выбранном товаре или перейти в карточку этого товара и там нажать несколько раз "в корзину"
@@ -132,7 +132,7 @@
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
     ОС Windows 10 (64-разрядный)
-  steps-to-reproduce: |
+  steps-to-reproduce:
     1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
     2. Добавить несколько товаров в корзину
     3. Перейти в корзину
