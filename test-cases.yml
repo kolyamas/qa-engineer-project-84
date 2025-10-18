@@ -2,14 +2,14 @@
    Успешная смена языка
 - requirement: |
    При смене языка, вся текстовая информация на сайте меняется (кроме названия производителей).
-prerequisites: |
+- prerequisites: |
    Открыто меню смены языка
-test-data: |
+- test-data: |
    Язык = English/Russian
-steps: |
+- steps: |
    - Открываем меню смены языка
    - Выбираем язык
-expected-result: |
+- expected-result: |
    Язык на сайте изменен на выбранный
    
 - summary: |
