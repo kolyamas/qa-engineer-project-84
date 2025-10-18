@@ -1,9 +1,10 @@
-- test-cases:
-   summary: |
-      Проверка смены языка
-   status: fail
-  bugreports:
-   summary: |
+test-cases:
+- summary: |
+  Проверка смены языка
+  status: fail
+  
+bugreports:
+- summary: |
      Не работает полная смена языка на сайте. При обновлении страницы язык сбрасывается обратно на английский.
   environment: |
     Firefox 140.0.2
@@ -18,12 +19,13 @@
   actual-result: |
       На сайте язык изменяется не полностью. Не меняется название и описание товаров. При обновлении страницы язык сменяется обратно на английский
 
-- test-cases:
-   summary: |
+test-cases:
+- summary: |
       Проверка поиска товаров
-   status: fail
-  bugreports:
-   summary: |
+  status: fail
+  
+bugreports:
+- summary: |
      Поиск товаров работает только по текущей странице
   environment: |
     Firefox 140.0.2
@@ -39,12 +41,13 @@
   actual-result: |
       Товар ищется только по текущей странице
 
-- test-cases:
-   summary: |
-      Проверка фильтра по категориям товаров
-   status: fail
-  bugreports:
-   summary: |
+test-cases:
+- summary: |
+   Проверка фильтра по категориям товаров
+  status: fail
+
+bugreports:
+- summary: |
      Нет общего списка категорий. Фильтр по категориям доступен только по текущей странице. Нет возможности снять фильтр по категории, только путем обновления страницы.
   environment: |
     Firefox 140.0.2
@@ -58,12 +61,13 @@
   actual-result: |
       Фильтр не охватывает все товары на сайте магазина
 
-- test-cases:
-   summary: |
+test-cases:
+- summary: |
       Проверка фильтра товаров по производителю
-   status: fail
-  bugreports:
-    summary: |
+  status: fail
+
+bugreports:
+- summary: |
      Нет общего списка производителей. Фильтр по производителю доступен только по текущей странице.
   environment: |
     Firefox 140.0.2
@@ -77,13 +81,14 @@
   actual-result: |
       Фильтр не охватывает все товары на сайте магазина
 
-- test-cases:
-   summary: |
-      Проверка функциональности фильтра «в наличии»
-   status: fail
-  bugreports:
-   summary: |
-     Не просматриваются все товары без фильтрации по наличию.
+test-cases:
+- summary: |
+   Проверка функциональности фильтра «в наличии»
+  status: fail
+
+bugreports:
+- summary: |
+   Не просматриваются все товары без фильтрации по наличию.
   environment: |
     Firefox 140.0.2
     Opera GP 119.0.5497.144 
@@ -99,12 +104,13 @@
   actual-result: |
      При выключенном фильтре "в наличии" отображается не весь ассортимент товаров. Отсутствует возможность просмотреть полный список товаров без применения фильтра "в наличии".
 
-- test-cases:
-   summary: |
+test-cases:
+- summary: |
       Проверка добавления нескольких единиц одного товара в корзину
-   status: fail
-  bugreports:
-   summary: |
+  status: fail
+  
+bugreports:
+- summary: |
      При добавлении нескольких единиц одного товара в корзину, отображается некорректная цена
   environment: |
     Firefox 140.0.2
@@ -121,12 +127,13 @@
   actual-result: |
      Нет возможности добавить несколько товаров сразу, приходится нажимать "в корзину" несколько раз. Цена товаров считается некорректно
 
-- test-cases:
-   summary: |
+test-cases:
+- summary: |
       Проверка оформления заказа
-   status: fail
-  bugreports:
-  summary: |
+  status: fail
+  
+bugreports:
+- summary: |
      Оформление заказа происходит некорректно
   environment: |
     Firefox 140.0.2
