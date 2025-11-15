@@ -36,7 +36,7 @@ test-cases:
     status: fail
 
 bugreports:
-   - summary: |
+  - summary: |
       Запросы на сервер отправляются с ошибкой 500
     environment: |
       Firefox 140.0.2
