@@ -49,9 +49,9 @@ bugreports:
     steps-to-reproduce:
       1. Открываем каталог товаров
       2. Проверяем отображение названия, рейтинг, цены со скидкой и без скидки
-   expected-result: |
+    expected-result: |
       Не открывается карточка товара
-   actual-result: |
+    actual-result: |
       Открывается карточка товара
   
   - summary: |
